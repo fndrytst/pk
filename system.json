@@ -1,0 +1,18 @@
+{
+	"name": "pokemon",
+	"title": "Pokemon",
+	"description": "Pokemon!",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.7.9",
+	"author": "Me",
+	"esmodules": [],
+	"styles": [],
+	"packs": [],
+	"socket": false,
+	"gridDistance": 5,
+	"gridUnits": "ft",
+	"primaryTokenAttribute": "",
+	"secondaryTokenAttribute": "",
+	"manifest": "",
+	"download": ""
+}

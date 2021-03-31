@@ -1,0 +1,68 @@
+{
+	"Actor": {
+		"types": ["pc", "npc"],
+		"templates": {
+			"base": {
+				"athletics": 7,
+				"battling": 7,
+				"charm": 7,
+				"command": 7,
+				"focus": 7,
+				"guile": 7,
+				"intelligence": 7,
+				"intimidation": 7,
+				"intuition": 7,
+				"medicine": 7,
+				"perception": 7,
+				"pokemonKnowledge": 7,
+				"stealth": 7,
+				"survival": 7,
+				"technologicalUnderstanding": 7,
+				"name": "",
+				"background": "",
+				"personality": "",
+				"motives": "",
+				"classes": "",
+				"pokemon": []
+			}
+		},
+		"pc": {
+			"templates": ["base"]
+		},
+		"npc": {
+			"templates": ["base"]
+		}
+	},
+	"Item": {
+		"types": ["pokemon"],
+		"pokemon": {
+			"name": "",
+			"nickname": "",
+			"baseStats": {
+				"hp": 0,
+				"attack": 0,
+				"defence": 0,
+				"specialAttack": 0,
+				"specialDefence": 0,
+				"speed": 0
+			},
+			"ivs": {
+				"hp": 0,
+				"attack": 0,
+				"defence": 0,
+				"specialAttack": 0,
+				"specialDefence": 0,
+				"speed": 0
+			},
+			"evs": {
+				"hp": 0,
+				"attack": 0,
+				"defence": 0,
+				"specialAttack": 0,
+				"specialDefence": 0,
+				"speed": 0
+			},
+			"moves": []
+		}
+	}
+}
