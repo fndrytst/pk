@@ -13,6 +13,8 @@ export class PokemonItem extends Item {
     const itemData = this.data;
     const actorData = this.actor ? this.actor.data : {};
     const data = itemData.data;
+
+    // do calculated stats here e.g. base+iv+ev, battle stages
   }
 
   /**

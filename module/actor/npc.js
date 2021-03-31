@@ -26,7 +26,6 @@ export class NpcActor extends Actor {
    */
   _prepareCharacterData(actorData) {
     const data = actorData.data;
-    console.log(data);
 
     // Make modifications to data here. For example:
 

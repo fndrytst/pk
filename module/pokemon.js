@@ -25,6 +25,8 @@ Hooks.once('init', async function() {
   CONFIG.Actor.entityClass = PcActor;
   CONFIG.Item.entityClass = PokemonItem;
 
+  console.log(CONFIG);
+
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("pokemon", PcActorSheet, { makeDefault: true });
