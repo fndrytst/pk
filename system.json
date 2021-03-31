@@ -13,6 +13,6 @@
 	"gridUnits": "ft",
 	"primaryTokenAttribute": "",
 	"secondaryTokenAttribute": "",
-	"manifest": "",
-	"download": ""
+	"manifest": "https://github.com/fndrytst/pk/releases/latest/download/system.json",
+	"download": "https://github.com/fndrytst/pk/releases/latest/download/system.zip"
 }
