@@ -25,6 +25,7 @@ Hooks.once('init', async function() {
   CONFIG.Actor.entityClass = PcActor;
   CONFIG.Item.entityClass = PokemonItem;
 
+  console.log('pokemon.js:28 config')
   console.log(CONFIG);
 
   // Register sheet application classes

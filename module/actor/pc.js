@@ -25,6 +25,8 @@ export class PcActor extends Actor {
    * Prepare Character type specific data
    */
   _prepareCharacterData(actorData) {
+    console.log('pc.js:28 actor data')
+    console.log(actorData);
     const data = actorData.data;
 
     // Make modifications to data here. For example:
